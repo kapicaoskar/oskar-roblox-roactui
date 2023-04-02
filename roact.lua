@@ -7,4 +7,4 @@ local function App(props)
     })
 end
 
-local handle = Roact.mount(Roact.createElement(App), game.Players.LocalPlayer.PlayerGui)
+local handler = Roact.mount(Roact.createElement(App), game.Players.LocalPlayer.PlayerGui)
